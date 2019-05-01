@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <div class="container" style="font-family: 'SansSerif'; text-align: center; align-content: center; padding: 30px">
+    <section class="container" style="font-family: 'SansSerif'; text-align: center; align-content: center; padding: 30px">
      <img src="{{ post.article_img.url }}" class="is-rounded float-left" style="width: 250px; height: 300px">
      <h1 class="title">{{ post.title }}</h1>
      <br/>
      <section style="align-content: space-between;padding: 20px">{{ post.article_body|safe|escape }}</section>
-    </div>
+    </section>
 {% endblock %}

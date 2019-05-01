@@ -1,1 +1,3 @@
-"# Simple Django blog"
+# Simple Djang-blog 
+![Blog Logo](screen.png)
+
